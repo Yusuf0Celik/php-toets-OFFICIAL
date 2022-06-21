@@ -39,7 +39,7 @@ if (isset($_POST["submit"])) {
 <body>
     <form action="" method="post">
         <label>Prijs in euro(MET PUNT EN GEEN KOMMA)</label>
-        <input type="number" name="price" value="">
+        <input type="text" name="price" value="">
         <br>
         <input class="nostyle" type="radio" name="sale" value="20"> 20%
         <br>
